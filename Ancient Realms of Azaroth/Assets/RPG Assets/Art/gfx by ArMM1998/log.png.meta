@@ -1,58 +1,81 @@
 fileFormatVersion: 2
-guid: fb8cc55af4b7a034584793949fd90500
+guid: e0ddba6d3fcf21f49949fcc95c849aac
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: CoolGuy
-    21300002: NPC_1
-    21300004: NPC_2
-    21300006: NPC_3
-    21300008: NPC_4
-    21300010: NPC_5
-    21300012: NPC_6
-    21300014: NPC_7
-    21300016: NPC_8
-    21300018: NPC_9
-    21300020: NPC_10
-    21300022: NPC_11
-    21300024: NPC_12
-    21300026: NPC_13
-    21300028: NPC_14
-    21300030: NPC_15
-    21300032: NPC_16
-    21300034: NPC_17
-    21300036: NPC_18
-    21300038: NPC_19
-    21300040: NPC_20
-    21300042: NPC_21
-    21300044: NPC_22
-    21300046: NPC_23
-    21300048: ShopKeeper
-    21300050: NPC Characters_0
-    21300052: NPC Characters_1
-    21300054: NPC Characters_2
-    21300056: NPC Characters_3
-    21300058: NPC Characters_4
-    21300060: NPC Characters_5
-    21300062: NPC Characters_6
-    21300064: NPC Characters_7
-    21300066: NPC Characters_8
-    21300068: NPC Characters_9
-    21300070: NPC Characters_10
-    21300072: NPC Characters_11
-    21300074: NPC Characters_12
-    21300076: NPC Characters_13
-    21300078: NPC Characters_14
-    21300080: NPC Characters_15
-    21300082: NPC Characters_16
-    21300084: NPC Characters_17
-    21300086: NPC Characters_18
-    21300088: NPC Characters_19
-    21300090: NPC Characters_20
-    21300092: NPC Characters_21
-    21300094: NPC Characters_22
-    21300096: NPC Characters_23
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: log_0
+  - first:
+      213: 21300002
+    second: log_1
+  - first:
+      213: 21300004
+    second: log_2
+  - first:
+      213: 21300006
+    second: log_3
+  - first:
+      213: 21300008
+    second: log_4
+  - first:
+      213: 21300010
+    second: log_5
+  - first:
+      213: 21300012
+    second: log_6
+  - first:
+      213: 21300014
+    second: log_7
+  - first:
+      213: 21300016
+    second: log_8
+  - first:
+      213: 21300018
+    second: log_9
+  - first:
+      213: 21300020
+    second: log_10
+  - first:
+      213: 21300022
+    second: log_11
+  - first:
+      213: 21300024
+    second: log_12
+  - first:
+      213: 21300026
+    second: log_13
+  - first:
+      213: 21300028
+    second: log_14
+  - first:
+      213: 21300030
+    second: log_15
+  - first:
+      213: 21300032
+    second: log_16
+  - first:
+      213: 21300034
+    second: log_17
+  - first:
+      213: 21300036
+    second: log_18
+  - first:
+      213: 21300038
+    second: log_19
+  - first:
+      213: 21300040
+    second: log_20
+  - first:
+      213: 21300042
+    second: log_21
+  - first:
+      213: 21300044
+    second: log_22
+  - first:
+      213: 21300046
+    second: log_23
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -72,6 +95,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -81,8 +105,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -103,13 +127,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -118,9 +146,10 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 128
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -129,17 +158,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NPC Characters_0
+      name: log_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 51
-        width: 14
-        height: 16
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,19 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5c198c331ba1a641a63231827ce18e4
+      spriteID: 8000ffc686768424984eebcf9548327f
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_1
+      name: log_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 51
-        width: 12
-        height: 16
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,19 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19358b6812ea7004c95d5fa46081cb73
+      spriteID: 8d923c53f499f304fb9f2f654afc0ad3
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_2
+      name: log_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 51
-        width: 12
-        height: 15
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29f0674b8e2e3b24db19104aebb62cca
+      spriteID: 2b4130ba31b925c4fa24b2e12d183cb1
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_3
+      name: log_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 51
-        width: 12
-        height: 15
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d45697e610da89f43b0c9e05e4cf4b8b
+      spriteID: f09dece6d2452c0418cf4a62e718af0f
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_4
+      name: log_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 51
-        width: 12
-        height: 16
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,19 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed1fdf9c911cb146ba328fb4a0ff3c8
+      spriteID: 8c4807ca4b6ab9f49857acf5f23f51c5
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_5
+      name: log_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 51
-        width: 12
-        height: 15
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,19 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e84141565e24d854a94ef045f509c54a
+      spriteID: c0f0ab2f2647bf3439ee9706f1eb6241
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_6
+      name: log_6
       rect:
         serializedVersion: 2
-        x: 2
-        y: 34
-        width: 12
-        height: 15
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,19 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10183a2f7b91dba44bf6290f94435983
+      spriteID: b2c666055c6dacb4a98c9f7bf3956c35
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_7
+      name: log_7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 34
-        width: 14
-        height: 15
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,19 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9b3f8c234d6d94478fba176ac8de88b
+      spriteID: 9a029ae41aae71d43a15fffb58d344f9
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_8
+      name: log_8
       rect:
         serializedVersion: 2
-        x: 34
-        y: 34
-        width: 12
-        height: 15
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,19 +345,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370d6d36e58206c4fa553057a465c316
+      spriteID: 8ef924367f6039a4480e20d91c9c5b3f
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_9
+      name: log_9
       rect:
         serializedVersion: 2
-        x: 50
-        y: 34
-        width: 12
-        height: 15
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,19 +366,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca7d931f06823246a0cd139c116e0c1
+      spriteID: fbf2fe6236836eb43af53d895f41f31e
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_10
+      name: log_10
       rect:
         serializedVersion: 2
-        x: 66
-        y: 34
-        width: 12
-        height: 16
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,19 +387,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee39e4c728e31dc419224d6c2e87d3cf
+      spriteID: 31daf966984e60444ad5c59e05f0343d
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_11
+      name: log_11
       rect:
         serializedVersion: 2
-        x: 82
-        y: 34
-        width: 12
-        height: 15
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,19 +408,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 598041425eb60c94d870c981cdc43ece
+      spriteID: c42565ca4ef7a284e9901ea9238be677
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_12
+      name: log_12
       rect:
         serializedVersion: 2
-        x: 2
-        y: 17
-        width: 12
-        height: 16
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,19 +429,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29463b7a24b5afe468d48e3ce2332f4b
+      spriteID: 7e3d3b7be6cf9c444aa1f863137ae223
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_13
+      name: log_13
       rect:
         serializedVersion: 2
-        x: 18
-        y: 17
-        width: 12
-        height: 15
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,19 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba5f3d6199c13542b82a43cf77a28cc
+      spriteID: 5ccf402cc863a0f49854e11c4e371e4f
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_14
+      name: log_14
       rect:
         serializedVersion: 2
-        x: 34
-        y: 17
-        width: 12
-        height: 16
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,19 +471,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d3d3df2b6ce4634998ca07bf50b7999
+      spriteID: 6c402490a99e1fa46ad53f2362ffd52c
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_15
+      name: log_15
       rect:
         serializedVersion: 2
-        x: 50
-        y: 17
-        width: 12
-        height: 15
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,19 +492,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf0cfac56e78fd4cb08360d6a5ddc79
+      spriteID: 3a0249425c9cfbd448fb7d35e1b68c12
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_16
+      name: log_16
       rect:
         serializedVersion: 2
-        x: 66
-        y: 17
-        width: 12
-        height: 16
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,19 +513,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c4be99b090dcb4d8019a43486960b1
+      spriteID: 846e990359fc93445adaeb0656564aa9
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_17
+      name: log_17
       rect:
         serializedVersion: 2
-        x: 82
-        y: 17
-        width: 12
-        height: 16
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,19 +534,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b2daff16b3a024da6613174c2fd8a0
+      spriteID: c804138acf7a32046864cdfc2c189784
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_18
+      name: log_18
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,19 +555,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad7c8db1ad67f24d960c45bd7a1ac1e
+      spriteID: 5bfa7b9624e59d34c886c6cd8c878940
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_19
+      name: log_19
       rect:
         serializedVersion: 2
-        x: 18
+        x: 32
         y: 0
-        width: 12
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,19 +576,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c991040a3f1d57448adf4f2f7fd21f9
+      spriteID: 9aea6e19ce47be14b96715bb1918eb21
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_20
+      name: log_20
       rect:
         serializedVersion: 2
-        x: 34
+        x: 64
         y: 0
-        width: 12
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,19 +597,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b48f3bef2ed777742802c61f8f4b96a8
+      spriteID: 06fb8a54bec3a3b4a8b7085ea9b8f4a3
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_21
+      name: log_21
       rect:
         serializedVersion: 2
-        x: 50
+        x: 96
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,19 +618,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 982770dd880f94e47b65cf102615b9a0
+      spriteID: dd5f171147fe52d4ea71e00f24df26cc
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_22
+      name: log_22
       rect:
         serializedVersion: 2
-        x: 66
+        x: 128
         y: 0
-        width: 12
-        height: 15
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,19 +639,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa0c426b06a0ef47b444aa36d86c797
+      spriteID: 1ceb646bc997ced46a0ecd525246fce0
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC Characters_23
+      name: log_23
       rect:
         serializedVersion: 2
-        x: 82
+        x: 160
         y: 0
-        width: 12
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,7 +660,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c83756562e4a34641becece6a38068f7
+      spriteID: 2c73f8fa037f9804197023deee9fd43f
+      internalID: 21300046
       vertices: []
       indices: 
       edges: []
@@ -615,11 +669,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8774c89883c6c4b4b9137e27da15fa98
+    spriteID: c351fb083b42b6a43b781794d079fb0a
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
